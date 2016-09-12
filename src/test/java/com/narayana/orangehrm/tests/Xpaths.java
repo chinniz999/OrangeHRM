@@ -1,4 +1,4 @@
-package pack;
+package com.narayana.orangehrm.tests;
 import java.util.List;
 
 import org.openqa.selenium.By;

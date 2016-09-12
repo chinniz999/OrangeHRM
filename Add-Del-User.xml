@@ -4,14 +4,14 @@
 <suite name="Suite" preserve-order="true">
 	<test name="AddUser">
 		<classes>
-			<class name="pack.AddUser" />
+			<class name="com.narayana.orangehrm.tests.AddUser" />
 		</classes>
 	</test> <!-- Test -->
 
 
 	<test name="DeleteUser">
 		<classes>
-			<class name="pack.DeleteUser" />
+			<class name="com.narayana.orangehrm.tests.DeleteUser" />
 		</classes>
 	</test> <!-- Test -->
 

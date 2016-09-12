@@ -1,4 +1,4 @@
-package pack;
+package com.narayana.orangehrm.tests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

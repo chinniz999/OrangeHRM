@@ -1,4 +1,4 @@
-package pack;
+package com.narayana.orangehrm.tests;
 
 import java.util.Random;
 

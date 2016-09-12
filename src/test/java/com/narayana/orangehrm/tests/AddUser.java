@@ -1,7 +1,8 @@
-package pack;
+package com.narayana.orangehrm.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.narayana.orangehrm.utils.SelectBox;
@@ -41,6 +42,9 @@ public class AddUser extends LoginHRM {
 		
 		//Click on Save
 		driver.findElement(By.xpath("//*[contains(@id,'btnSave')]")).click();
+		
+		/*boolean b = driver.findElements(By.xpath("//a[contains(text(),"+LoginHRM.userid1+")"+"]")).size()!= 0;
+		Assert.assertTrue(b);*/
 
 	}
 
